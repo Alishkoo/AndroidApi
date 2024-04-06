@@ -1,0 +1,1 @@
+[Видео](D:\Android\TodoList\TodoListApp – build.gradle.kts (_app) 2024-04-06 14-45-25.mp4)
