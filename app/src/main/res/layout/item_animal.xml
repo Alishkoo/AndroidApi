@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Название животного -->
+                <TextView
+                    android:id="@+id/animalName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="African Wild Dog" />
+
+                <!-- Научное название -->
+                <TextView
+                    android:id="@+id/animalScientificName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Scientific Name: Lycaon pictus" />
+
+                <TextView
+                    android:id="@+id/animalLocations"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Locations: Lycaon pictus" />
+
+                <!-- Основные характеристики -->
+                <TextView
+                    android:id="@+id/animalCharacteristics"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Characteristics:- Prey: Antelope, Warthog, Rodents- Name of Young: Pup
+                    - Group Behavior: Pack
+                    - Estimated Population Size: Less than 5,000
+                    - Biggest Threat: Habitat loss
+                    - Most Distinctive Feature: Four toes on each foot rather than five
+                    - Other Name(s): Hunting Dog, Painted Dog, Painted Wolf
+                    - Gestation Period: 70 days
+                    - Habitat: Open plains and savanna
+                    - Predators: Lions, Hyenas, Humans
+                    - Diet: Carnivore
+                    - Average Litter Size: 8
+                    - Lifestyle: Crepuscular
+                    - Common Name: African Wild Dog- Number of Species: 1
+                    - Location: sub-Saharan Africa
+                    - Slogan: Also known as the painted dog!
+                    - Group: Mammal
+                    - Color: BrownGreyRedBlackWhiteGoldTan
+                    - Skin Type: Fur
+                    - Top Speed: 45 mph
+                    - Lifespan: 10 - 13 years
+                    - Weight: 17kg - 36kg (39lbs - 79lbs)
+                    - Length: 75cm - 110cm (29in - 43in)
+                    - Age of Sexual Maturity: 12 - 18 months
+                    - Age of Weaning: 3 months" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
